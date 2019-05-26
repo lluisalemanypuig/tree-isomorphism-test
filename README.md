@@ -7,7 +7,7 @@ The names Aho, Hopcroft and Ullman are mentioned, but I could not find a proper 
 
 ## Implementation
 
-In [this](https://github.com/lluisalemanypuig/tree-isomorphism-test/edit/master/tree_isomorphism_test.py) file.
+In [this](https://github.com/lluisalemanypuig/tree-isomorphism-test/blob/master/tree_isomorphism_test.py?ts=4) file.
 In order to use it, the file could be imported with
 
         from tree_isomorphism_test import are_trees_isomorphic
@@ -17,7 +17,7 @@ The function _are_trees_isomorphic_ returns True (False) when the two trees pass
 
 ## Debugging
 
-In [this](https://github.com/lluisalemanypuig/tree-isomorphism-test/edit/master/debug.py) file one will find a
+In [this](https://github.com/lluisalemanypuig/tree-isomorphism-test/blob/master/debug.py?ts=4) file one will find a
 small piece of code used to debug the test. It also measures the execution time and compares it to Networkx's.
 
 My test is slower for most cases, but at the end of this file there are two tests for which Networkx takes
