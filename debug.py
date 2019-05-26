@@ -30,7 +30,7 @@ def small_tests(t1, t2):
 
 if len(argv) < 2:
 	print("I need the number of vertices")
-	print("    python test.py 5")
+	print("    python debug.py 5")
 	exit(1)
 
 n = int(argv[1])
