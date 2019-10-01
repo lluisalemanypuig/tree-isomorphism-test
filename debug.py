@@ -36,6 +36,8 @@ if len(argv) < 2:
 	print("to see the usage")
 	exit(1)
 
+test_type = None
+
 if len(argv) == 2:
 	if argv[1] == "help":
 		print_help()
@@ -56,7 +58,7 @@ if len(argv) == 2:
 		print("to see the usage")
 		exit(1)
 	
-	small = argv[1] == "--small-test"
+	small = argv[1] == "--small-tests"
 	if small:
 		run_small_tests()
 	else:
