@@ -131,7 +131,7 @@ def __trees_isomorphic(dT1,r1, dT2,r2):
 	if ml1 != ml2:
 		return False
 	
-	# if there is a level with differentc number of
+	# if there is a level with different number of
 	# vertices then the trees are not isomorphic
 	for l in range(0, ml1+1):
 		if len(dlevel1[l]) != len(dlevel2[l]):
