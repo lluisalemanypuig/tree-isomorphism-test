@@ -2,16 +2,16 @@
 
 An isomorphism test in Python3 for trees using NetworkX. This is an implementation of the algorithm described in [these](https://logic.pdmi.ras.ru/~smal/files/smal_jass08_slides.pdf) slides (last accessed May 25th, 2019). The algorithm is based on Aho, Hopcroft and Ullman's algorithm published in their book _The Design and Analysis of Computer Algorithms_ 1974. The complete bibliographic reference is the following:
 
-		@book{Aho1974a,
-			author = {Aho, A. V. and Hopcroft, J. E. and Ullman, J. D.},
-			title = {The Design and Analysis of Computer Algorithms},
-			series = {Addison-Wesley series in computer science and information processing},
-			year = {1974},
-			isbn = {9780201000290},
-			edition = {1st},
-			publisher = {Addison-Wesley Publishing Company},
-			address = {Michigan University},
-		}
+	@book{Aho1974a,
+		author = {Aho, A. V. and Hopcroft, J. E. and Ullman, J. D.},
+		title = {The Design and Analysis of Computer Algorithms},
+		series = {Addison-Wesley series in computer science and information processing},
+		year = {1974},
+		isbn = {9780201000290},
+		edition = {1st},
+		publisher = {Addison-Wesley Publishing Company},
+		address = {Michigan University},
+	}
 
 ## Implementation
 
@@ -32,6 +32,6 @@ The last two tests show that my function for tree isomorphism is slower than Net
 
 In order to run the tests issue 
 
-		python3 debug.py --small-tests
-		python3 debug.py --medium-tests
-		python3 debug.py --large-tests 20
+	python3 debug.py --small-tests
+	python3 debug.py --medium-tests
+	python3 debug.py --large-tests 20
