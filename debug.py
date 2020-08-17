@@ -1,6 +1,6 @@
 """
 tree-isomorphism-test - An algorithm for fast tree isomorphism test
-Copyright (C) 2019  Lluís Alemany Puig
+Copyright (C) 2019,2020  Lluís Alemany Puig
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -58,7 +58,7 @@ if len(argv) < 2:
 
 test_type = None
 
-print("tree-Isomorphism-test  Copyright (C) 2019  Lluís Alemany Puig")
+print("tree-Isomorphism-test  Copyright (C) 2019,2020  Lluís Alemany Puig")
 print("This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.")
 print("This is free software, and you are welcome to redistribute it")
 print("under certain conditions; type `show c' for details.")
